@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    width: 270px;
+    float: left;
+}
+/*=======nav bar goes here====*/
+.logo img{
+    padding-top: 15px;
+}
+.menu{
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    padding: 0 20px;
+   
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #444;
+    transition: all linear.3s;
+     font-weight: 500;
+    font-size: 20px;
+}
+.menu ul li a:hover {
+    color: #04fa39;
+
+}
+
+.banner{
+    width: 100%;
+}
+
+
+.banner_image{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    /* object-fit: contain; */
+}
+/* product part goes here  */
+.products {
+    width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+.product {
+    
+   background: #F6F5F5;
+    
+    border:solid #dcdcdc  ;
+   width: 300px;
+   border-width:0.5px ;
+   padding: 6px;
+   border-radius: 6px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   
+  }
+.product_img{
+    width: 100%;
+    padding: 6px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.product h3{
+    color: #35374B;
+}
+
+
+.price{
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button{
+    background: #008b8b ;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    border:0;
+    border-radius: 6px;
+}
+
+ .buttons button:hover{
+    background: #036464 ;
+ }
+
+.card-text{
+    padding: 4px;
+}
+
+
+.products_title{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 80px;
+}
